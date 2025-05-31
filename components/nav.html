@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/navbar.js"></script>
+</head>
+<body>
+     <nav class="navbar">
+        <div class="logo">
+            <a href="../../../index.html">
+                <img src="..\..\..\assets\images\logos\logo2.png"style="width: 3rem; height: 3rem;">
+            </a>
+            <font>Greenovation</font>
+        </div>
+        <ul class="nav-links">
+            <li><a href="../../../index.html"><i class="fa-solid fa-house-chimney-window"></i> Home</a></li>
+            <li><a href="../../../pages/categories/wasteManagement.html">Waste Management</a></li>
+            <li><a href="../../../pages/categories/greenBuilding.html">Green Building</a></li>
+            <li><a href="../../../pages/categories/sustainableAgriculture.html">Sustainable Agriculture</a></li>
+            <li><a href="../../../pages/about.html">About</a></li>
+        </ul>
+        <div class="search">
+            <input list="browsers" name="br0owser" id="browser" type="search" placeholder="Type here to search">
+            <datalist id="browsers">
+              <option value="Smart Waste Bins"></option>
+              <option value="Anaerobic Digestion"><a href=""></a></option>
+              <option value="AI-Powered Recycling Systems"><a href=""></a></option>
+              <option value="Green Roofs & Walls "><a href=""></a></option>
+              <option value="3D-Printed Sustainable Buildings"><a href=""></a></option>
+            </datalist>
+            <label for="browser"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></label>
+        </div>
+
+        <!--Navigation for mobile-->
+        <div class="mobile-nav">
+            <button id="hamburger" class="hamburger">
+                <i class="fa-solid fa-bars"></i> 
+            </button>
+            <div id="dropdownMenu" class="dropdown-menu hidden">
+                <a href="../../../index.html" ><i class="fa-solid fa-house-chimney-window"></i> Home Page</a>
+                <a href="../../../pages/categories/wasteManagement.html">Waste Management</a>
+                <a href="../../../pages/categories/greenBuilding.html">Green Building</a>
+                <a href="../../../pages/categories/sustainableAgriculture.html">Sustainable Agriculture</a>
+                <a href="../../../pages/about.html">About</a>
+            </div>
+        </div>
+    </nav>
+    <!--Search Bar For Mobile-->
+    <div class="mobileSearch">
+        <input type="search" placeholder="Type here to search">
+        <label for="browser"><a href="smartBins.html"><i class="fa-solid fa-magnifying-glass"></i></a></label>
+    </div>
+</body>
+</html>
