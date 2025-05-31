@@ -1135,32 +1135,4 @@ display: flex;
     }
     
 }
-@supports (-webkit-touch-callout: none) {
-    .navbar {
-        flex-direction: column;
-    }
-    input, select, textarea {
-        font-size: 16px; /* Prevent zoom-in on iOS */
-    }
-    .navbar .logo font{
-        font-size: 1.2rem;
-    }
-    .header{
-        margin-top: 1rem;
-    }
-    select {
-        background-color: #e0dad1;
-        text-align-last: center;
-        border-radius: none;
-    }
-    .mobileSearch {
-        top: 70px;
-    }
-    main {
-        margin-top: 10rem;
-    }
-    .mobileSearch input:focus {
-        outline: none;
-    }
 
-}
